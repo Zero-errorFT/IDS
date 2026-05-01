@@ -1,0 +1,41 @@
+# Machine Learning Models (HUGE FILES - don't upload)
+*.joblib
+*.pkl
+*.h5
+
+# Data files (test data)
+*.csv
+live_can_feed.csv
+features.csv
+shuffled_features.csv
+test_simulation.csv
+
+# Python garbage
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+
+# Secret files
+.env
+.env.local
+
+# IDE stuff (editor files)
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+nids.log
+
+# Virtual environment
+venv/
+env/
