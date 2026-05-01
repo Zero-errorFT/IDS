@@ -1,4 +1,4 @@
-![CANARY Banner](assets/banner.png)
+![CANARY Banner](banner.png)
 
 🐦 CANARY
 
