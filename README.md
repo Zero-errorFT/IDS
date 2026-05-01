@@ -1,3 +1,5 @@
+![CANARY Banner](assets/banner.png)
+
 🐦 CANARY
 
 CAN Anomaly Recognition & Response sYstem
