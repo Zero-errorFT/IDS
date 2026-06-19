@@ -1,5 +1,17 @@
 """
 app.py  -  NIDS Backend with HuggingFace Streaming Support
+CANARY IDS - Flask Web Server with Real-Time WebSocket Streaming
+ 
+Real-time Intrusion Detection System Backend
+Features:
+  - Live attack dashboard with WebSocket streaming
+  - Real-time threat visualization
+  - Attack event logging and CSV export
+  - Multi-user concurrent connections
+  - Dynamic sensitivity controls
+  - LLM-powered forensic analysis
+ 
+Author: Zero-errorFT (Srishti Sucklecha)
 """
 import time, os, threading, random
 import pandas as pd
