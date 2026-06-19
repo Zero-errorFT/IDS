@@ -1,16 +1,43 @@
-Flask==3.0.0
-Flask-SocketIO==5.3.5
-pandas==2.1.4
-numpy==1.26.3
-scikit-learn==1.3.2
-joblib==1.3.2
-python-can==4.3.1
-scipy==1.11.4
-tensorflow==2.15.0
-eventlet==0.33.3
-psutil==5.9.6
-matplotlib==3.8.2
-requests==2.31.0
-schedule==1.2.0
-datasets==2.16.1
-python-dotenv==1.0.0
+# CANARY IDS - Real-Time Intrusion Detection System
+# Python Dependencies with pinned versions for stability
+
+# Web Framework
+Flask==2.3.3
+Flask-SocketIO==5.3.4
+python-socketio==5.9.0
+python-engineio==4.7.1
+
+# Machine Learning & Data Processing
+scikit-learn==1.3.1
+numpy==1.24.3
+pandas==2.0.3
+scipy==1.11.2
+
+# Real-time Processing
+Werkzeug==2.3.7
+Jinja2==3.1.2
+
+# Data Serialization
+joblib==1.3.1
+
+# Frontend & Visualization
+# (Served via CDN in templates)
+# Chart.js - included via CDN in HTML
+# Socket.IO client - included via CDN in HTML
+
+# Optional: LLM Integration
+# ollama>=0.0.1  # For Llama 3 integration (optional)
+
+# Development & Testing
+pytest==7.4.0
+pytest-cov==4.1.0
+black==23.7.0
+flake8==6.0.0
+
+# Logging & Monitoring
+python-logging-loki==0.3.2
+
+# Security
+cryptography==41.0.3
+
+# Updated: June 19, 2026 - Added security packages, updated dependencies
